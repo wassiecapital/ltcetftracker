@@ -1,0 +1,4351 @@
+{
+ "asset": "LTC",
+ "asset_name": "Litecoin",
+ "updated_utc": "2026-10-08T09:41:02+00:00",
+ "method": "flow = change in shares outstanding x NAV, per fund, per trading day; NAV recomputed as net assets / shares outstanding",
+ "funds": [
+  {
+   "ticker": "LTCC",
+   "issuer": "Canary Capital",
+   "name": "Canary Litecoin ETF",
+   "exchange": "Nasdaq",
+   "status": "live",
+   "adapter": "canary_table",
+   "fee": 0.0095,
+   "stakes": false,
+   "seed_date": "2025-10-27",
+   "first_trade": "2025-10-28",
+   "cik": "2039461",
+   "cusip": "137221107",
+   "basket_shares": 10000,
+   "source": "https://canaryetfs.com/ltcc/"
+  },
+  {
+   "ticker": "LTCN",
+   "issuer": "Grayscale",
+   "name": "Grayscale Litecoin Trust (ETF conversion pending)",
+   "exchange": "NYSE Arca (proposed)",
+   "status": "pending_19b4",
+   "adapter": null,
+   "fee": 0.025,
+   "stakes": false,
+   "seed_date": null,
+   "first_trade": null,
+   "cik": "1732406",
+   "note": "Still a Reg-D trust quoted on OTCQX. NYSE Arca filed the 19b-4 on 24 Jan 2025; as of the 11 Sep 2026 S-3/A it was not approved and the trust will not seek effectiveness until it is. Shares outstanding have been pinned at 24,252,100 since Dec 2025, so flow is structurally zero until a creation/redemption programme exists."
+  },
+  {
+   "ticker": "KCOI",
+   "issuer": "KraneShares",
+   "name": "KraneShares Crypto Trust (basket, LTC is a constituent)",
+   "exchange": "n/a",
+   "status": "not_single_asset",
+   "adapter": null,
+   "fee": 0.0068,
+   "stakes": false,
+   "note": "Multi-asset basket. Tracked here only so it is not miscounted as a spot LTC fund."
+  }
+ ],
+ "live_tickers": [
+  "LTCC"
+ ],
+ "coins_held": {
+  "LTCUSD": {
+   "ltc": 221388.69,
+   "as_of": "2026-10-08"
+  }
+ },
+ "coins_total": {
+  "amount": 221388.69,
+  "unit": "LTC",
+  "as_of": "2026-10-08"
+ },
+ "series": [
+  {
+   "date": "2025-10-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-10-27",
+     "shares": 40000.0,
+     "net_assets": 1000000.0,
+     "nav": 25.0,
+     "market_price": 25.0,
+     "premium_discount": 0.0,
+     "spread_30d": null,
+     "flow": 1000000.0,
+     "seed": true
+    }
+   },
+   "flow": 1000000.0,
+   "net_assets": 1000000.0,
+   "cum_flow": 1000000.0
+  },
+  {
+   "date": "2025-10-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-10-28",
+     "shares": 40000.0,
+     "net_assets": 968616.23,
+     "nav": 24.215406,
+     "market_price": 24.13,
+     "premium_discount": -0.35,
+     "spread_30d": 0.4,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 968616.23,
+   "cum_flow": 1000000.0
+  },
+  {
+   "date": "2025-10-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-10-29",
+     "shares": 60000.0,
+     "net_assets": 1457440.47,
+     "nav": 24.290674,
+     "market_price": 24.29,
+     "premium_discount": 0.0,
+     "spread_30d": 0.41,
+     "flow": 485813.48
+    }
+   },
+   "flow": 485813.48,
+   "net_assets": 1457440.47,
+   "cum_flow": 1485813.48
+  },
+  {
+   "date": "2025-10-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-10-30",
+     "shares": 60000.0,
+     "net_assets": 1342298.3,
+     "nav": 22.371638,
+     "market_price": 22.28,
+     "premium_discount": -0.41,
+     "spread_30d": 0.39,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 1342298.3,
+   "cum_flow": 1485813.48
+  },
+  {
+   "date": "2025-10-31",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-10-31",
+     "shares": 70000.0,
+     "net_assets": 1639106.31,
+     "nav": 23.415804,
+     "market_price": 23.62,
+     "premium_discount": 0.88,
+     "spread_30d": 0.39,
+     "flow": 234158.04
+    }
+   },
+   "flow": 234158.04,
+   "net_assets": 1639106.31,
+   "cum_flow": 1719971.52
+  },
+  {
+   "date": "2025-11-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-03",
+     "shares": 110000.0,
+     "net_assets": 2353668.42,
+     "nav": 21.396986,
+     "market_price": 21.38,
+     "premium_discount": -0.08,
+     "spread_30d": 0.41,
+     "flow": 855879.44
+    }
+   },
+   "flow": 855879.44,
+   "net_assets": 2353668.42,
+   "cum_flow": 2575850.96
+  },
+  {
+   "date": "2025-11-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-04",
+     "shares": 120000.0,
+     "net_assets": 2431846.4,
+     "nav": 20.265387,
+     "market_price": 20.38,
+     "premium_discount": 0.58,
+     "spread_30d": 0.41,
+     "flow": 202653.87
+    }
+   },
+   "flow": 202653.87,
+   "net_assets": 2431846.4,
+   "cum_flow": 2778504.83
+  },
+  {
+   "date": "2025-11-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-05",
+     "shares": 120000.0,
+     "net_assets": 2622390.13,
+     "nav": 21.853251,
+     "market_price": 21.83,
+     "premium_discount": -0.09,
+     "spread_30d": 0.41,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 2622390.13,
+   "cum_flow": 2778504.83
+  },
+  {
+   "date": "2025-11-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-06",
+     "shares": 150000.0,
+     "net_assets": 3213798.42,
+     "nav": 21.425323,
+     "market_price": 21.3,
+     "premium_discount": -0.59,
+     "spread_30d": 0.41,
+     "flow": 642759.69
+    }
+   },
+   "flow": 642759.69,
+   "net_assets": 3213798.42,
+   "cum_flow": 3421264.52
+  },
+  {
+   "date": "2025-11-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-07",
+     "shares": 150000.0,
+     "net_assets": 3706589.94,
+     "nav": 24.7106,
+     "market_price": 24.85,
+     "premium_discount": 0.57,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 3706589.94,
+   "cum_flow": 3421264.52
+  },
+  {
+   "date": "2025-11-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-10",
+     "shares": 230000.0,
+     "net_assets": 6063843.37,
+     "nav": 26.364536,
+     "market_price": 26.31,
+     "premium_discount": -0.2,
+     "spread_30d": 0.43,
+     "flow": 2109162.88
+    }
+   },
+   "flow": 2109162.88,
+   "net_assets": 6063843.37,
+   "cum_flow": 5530427.4
+  },
+  {
+   "date": "2025-11-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-11",
+     "shares": 230000.0,
+     "net_assets": 5625411.35,
+     "nav": 24.45831,
+     "market_price": 24.41,
+     "premium_discount": -0.21,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5625411.35,
+   "cum_flow": 5530427.4
+  },
+  {
+   "date": "2025-11-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-12",
+     "shares": 230000.0,
+     "net_assets": 5526528.58,
+     "nav": 24.028385,
+     "market_price": 24.13,
+     "premium_discount": 0.41,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5526528.58,
+   "cum_flow": 5530427.4
+  },
+  {
+   "date": "2025-11-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-13",
+     "shares": 260000.0,
+     "net_assets": 6052210.73,
+     "nav": 23.277734,
+     "market_price": 23.22,
+     "premium_discount": -0.25,
+     "spread_30d": 0.43,
+     "flow": 698332.02
+    }
+   },
+   "flow": 698332.02,
+   "net_assets": 6052210.73,
+   "cum_flow": 6228759.42
+  },
+  {
+   "date": "2025-11-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-14",
+     "shares": 260000.0,
+     "net_assets": 6285378.32,
+     "nav": 24.174532,
+     "market_price": 24.09,
+     "premium_discount": -0.34,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6285378.32,
+   "cum_flow": 6228759.42
+  },
+  {
+   "date": "2025-11-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-17",
+     "shares": 350000.0,
+     "net_assets": 7882076.38,
+     "nav": 22.520218,
+     "market_price": 22.56,
+     "premium_discount": 0.18,
+     "spread_30d": 0.43,
+     "flow": 2026819.62
+    }
+   },
+   "flow": 2026819.62,
+   "net_assets": 7882076.38,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-18",
+     "shares": 350000.0,
+     "net_assets": 8189994.0,
+     "nav": 23.399983,
+     "market_price": 23.41,
+     "premium_discount": 0.03,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8189994.0,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-19",
+     "shares": 350000.0,
+     "net_assets": 7735239.97,
+     "nav": 22.100686,
+     "market_price": 22.27,
+     "premium_discount": 0.78,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7735239.97,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-20",
+     "shares": 350000.0,
+     "net_assets": 7455051.79,
+     "nav": 21.300148,
+     "market_price": 21.25,
+     "premium_discount": -0.25,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7455051.79,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-21",
+     "shares": 350000.0,
+     "net_assets": 7048929.47,
+     "nav": 20.139798,
+     "market_price": 20.12,
+     "premium_discount": -0.1,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7048929.47,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-24",
+     "shares": 350000.0,
+     "net_assets": 7443263.75,
+     "nav": 21.266468,
+     "market_price": 21.36,
+     "premium_discount": 0.42,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7443263.75,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-25",
+     "shares": 350000.0,
+     "net_assets": 7349825.47,
+     "nav": 20.999501,
+     "market_price": 21.06,
+     "premium_discount": 0.28,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7349825.47,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-26",
+     "shares": 350000.0,
+     "net_assets": 7418510.6,
+     "nav": 21.195745,
+     "market_price": 21.24,
+     "premium_discount": 0.23,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7418510.6,
+   "cum_flow": 8255579.04
+  },
+  {
+   "date": "2025-11-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-11-28",
+     "shares": 370000.0,
+     "net_assets": 7676654.54,
+     "nav": 20.747715,
+     "market_price": 20.56,
+     "premium_discount": -0.88,
+     "spread_30d": 0.42,
+     "flow": 414954.3
+    }
+   },
+   "flow": 414954.3,
+   "net_assets": 7676654.54,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-01",
+     "shares": 370000.0,
+     "net_assets": 6950737.85,
+     "nav": 18.785778,
+     "market_price": 18.87,
+     "premium_discount": 0.45,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6950737.85,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-02",
+     "shares": 370000.0,
+     "net_assets": 7490886.77,
+     "nav": 20.24564,
+     "market_price": 20.26,
+     "premium_discount": 0.08,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7490886.77,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-03",
+     "shares": 370000.0,
+     "net_assets": 7785001.01,
+     "nav": 21.040543,
+     "market_price": 21.08,
+     "premium_discount": 0.2,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7785001.01,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-04",
+     "shares": 370000.0,
+     "net_assets": 7587197.29,
+     "nav": 20.505939,
+     "market_price": 20.61,
+     "premium_discount": 0.51,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7587197.29,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-05",
+     "shares": 370000.0,
+     "net_assets": 7280317.02,
+     "nav": 19.676532,
+     "market_price": 19.63,
+     "premium_discount": -0.22,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7280317.02,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-08",
+     "shares": 370000.0,
+     "net_assets": 7587976.04,
+     "nav": 20.508043,
+     "market_price": 20.57,
+     "premium_discount": 0.29,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7587976.04,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-09",
+     "shares": 370000.0,
+     "net_assets": 7797459.24,
+     "nav": 21.074214,
+     "market_price": 21.06,
+     "premium_discount": -0.09,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7797459.24,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-10",
+     "shares": 370000.0,
+     "net_assets": 7812788.09,
+     "nav": 21.115643,
+     "market_price": 20.98,
+     "premium_discount": -0.66,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7812788.09,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-11",
+     "shares": 370000.0,
+     "net_assets": 7445988.35,
+     "nav": 20.124293,
+     "market_price": 20.25,
+     "premium_discount": 0.61,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7445988.35,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-12",
+     "shares": 370000.0,
+     "net_assets": 7388340.65,
+     "nav": 19.968488,
+     "market_price": 20.01,
+     "premium_discount": 0.2,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7388340.65,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-15",
+     "shares": 370000.0,
+     "net_assets": 6948844.2,
+     "nav": 18.78066,
+     "market_price": 18.73,
+     "premium_discount": -0.25,
+     "spread_30d": 0.43,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6948844.2,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-16",
+     "shares": 370000.0,
+     "net_assets": 7178952.48,
+     "nav": 19.402574,
+     "market_price": 19.38,
+     "premium_discount": -0.11,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7178952.48,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-17",
+     "shares": 370000.0,
+     "net_assets": 6927421.04,
+     "nav": 18.72276,
+     "market_price": 18.67,
+     "premium_discount": -0.31,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6927421.04,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-18",
+     "shares": 370000.0,
+     "net_assets": 6659475.87,
+     "nav": 17.998583,
+     "market_price": 17.99,
+     "premium_discount": -0.04,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6659475.87,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-19",
+     "shares": 370000.0,
+     "net_assets": 7048648.59,
+     "nav": 19.050402,
+     "market_price": 19.05,
+     "premium_discount": 0.0,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7048648.59,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-22",
+     "shares": 370000.0,
+     "net_assets": 6956917.65,
+     "nav": 18.80248,
+     "market_price": 18.82,
+     "premium_discount": 0.09,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6956917.65,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-23",
+     "shares": 370000.0,
+     "net_assets": 7021873.6,
+     "nav": 18.978037,
+     "market_price": 18.98,
+     "premium_discount": -0.01,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7021873.6,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-24",
+     "shares": 370000.0,
+     "net_assets": 6867414.05,
+     "nav": 18.560579,
+     "market_price": 18.51,
+     "premium_discount": -0.25,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6867414.05,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-26",
+     "shares": 370000.0,
+     "net_assets": 6974411.02,
+     "nav": 18.84976,
+     "market_price": 18.87,
+     "premium_discount": 0.08,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6974411.02,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-29",
+     "shares": 370000.0,
+     "net_assets": 7070688.71,
+     "nav": 19.109969,
+     "market_price": 19.14,
+     "premium_discount": 0.16,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7070688.71,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-30",
+     "shares": 370000.0,
+     "net_assets": 7067539.29,
+     "nav": 19.101458,
+     "market_price": 19.05,
+     "premium_discount": -0.3,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7067539.29,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2025-12-31",
+   "by_fund": {
+    "LTCC": {
+     "date": "2025-12-31",
+     "shares": 370000.0,
+     "net_assets": 6916810.51,
+     "nav": 18.694082,
+     "market_price": 18.77,
+     "premium_discount": 0.43,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6916810.51,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-02",
+     "shares": 370000.0,
+     "net_assets": 7365839.96,
+     "nav": 19.907676,
+     "market_price": 19.89,
+     "premium_discount": -0.1,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7365839.96,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-05",
+     "shares": 370000.0,
+     "net_assets": 7619633.7,
+     "nav": 20.593605,
+     "market_price": 20.56,
+     "premium_discount": -0.15,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7619633.7,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-06",
+     "shares": 370000.0,
+     "net_assets": 7506356.32,
+     "nav": 20.28745,
+     "market_price": 20.28,
+     "premium_discount": -0.02,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7506356.32,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-07",
+     "shares": 370000.0,
+     "net_assets": 7372610.74,
+     "nav": 19.925975,
+     "market_price": 19.93,
+     "premium_discount": 0.0,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7372610.74,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-08",
+     "shares": 370000.0,
+     "net_assets": 7316386.81,
+     "nav": 19.774018,
+     "market_price": 19.86,
+     "premium_discount": 0.46,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7316386.81,
+   "cum_flow": 8670533.34
+  },
+  {
+   "date": "2026-01-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-09",
+     "shares": 390000.0,
+     "net_assets": 7740571.34,
+     "nav": 19.847619,
+     "market_price": 19.9,
+     "premium_discount": 0.24,
+     "spread_30d": 0.48,
+     "flow": 396952.38
+    }
+   },
+   "flow": 396952.38,
+   "net_assets": 7740571.34,
+   "cum_flow": 9067485.72
+  },
+  {
+   "date": "2026-01-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-12",
+     "shares": 390000.0,
+     "net_assets": 7281445.7,
+     "nav": 18.670374,
+     "market_price": 18.7,
+     "premium_discount": 0.13,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7281445.7,
+   "cum_flow": 9067485.72
+  },
+  {
+   "date": "2026-01-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-13",
+     "shares": 390000.0,
+     "net_assets": 7353316.16,
+     "nav": 18.854657,
+     "market_price": 18.81,
+     "premium_discount": -0.24,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7353316.16,
+   "cum_flow": 9067485.72
+  },
+  {
+   "date": "2026-01-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-14",
+     "shares": 390000.0,
+     "net_assets": 7405655.14,
+     "nav": 18.988859,
+     "market_price": 19.07,
+     "premium_discount": 0.41,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7405655.14,
+   "cum_flow": 9067485.72
+  },
+  {
+   "date": "2026-01-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-15",
+     "shares": 390000.0,
+     "net_assets": 6871615.3,
+     "nav": 17.619526,
+     "market_price": 17.62,
+     "premium_discount": -0.01,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6871615.3,
+   "cum_flow": 9067485.72
+  },
+  {
+   "date": "2026-01-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-16",
+     "shares": 500000.0,
+     "net_assets": 9102307.33,
+     "nav": 18.204615,
+     "market_price": 18.25,
+     "premium_discount": 0.23,
+     "spread_30d": 0.48,
+     "flow": 2002507.65
+    }
+   },
+   "flow": 2002507.65,
+   "net_assets": 9102307.33,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-20",
+     "shares": 500000.0,
+     "net_assets": 8261743.55,
+     "nav": 16.523487,
+     "market_price": 16.48,
+     "premium_discount": -0.26,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8261743.55,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-21",
+     "shares": 500000.0,
+     "net_assets": 8424971.88,
+     "nav": 16.849944,
+     "market_price": 16.86,
+     "premium_discount": 0.06,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8424971.88,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-22",
+     "shares": 500000.0,
+     "net_assets": 8336631.62,
+     "nav": 16.673263,
+     "market_price": 16.66,
+     "premium_discount": -0.11,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8336631.62,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-23",
+     "shares": 500000.0,
+     "net_assets": 8271424.69,
+     "nav": 16.542849,
+     "market_price": 16.51,
+     "premium_discount": -0.22,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8271424.69,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-26",
+     "shares": 500000.0,
+     "net_assets": 8448975.42,
+     "nav": 16.897951,
+     "market_price": 16.85,
+     "premium_discount": -0.29,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8448975.42,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-27",
+     "shares": 500000.0,
+     "net_assets": 8557626.62,
+     "nav": 17.115253,
+     "market_price": 17.15,
+     "premium_discount": 0.23,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8557626.62,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-28",
+     "shares": 500000.0,
+     "net_assets": 8500436.47,
+     "nav": 17.000873,
+     "market_price": 16.93,
+     "premium_discount": -0.39,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8500436.47,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-29",
+     "shares": 500000.0,
+     "net_assets": 7994527.73,
+     "nav": 15.989055,
+     "market_price": 16.07,
+     "premium_discount": 0.48,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7994527.73,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-01-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-01-30",
+     "shares": 500000.0,
+     "net_assets": 7976878.53,
+     "nav": 15.953757,
+     "market_price": 15.89,
+     "premium_discount": -0.41,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7976878.53,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-02-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-02",
+     "shares": 500000.0,
+     "net_assets": 7307472.03,
+     "nav": 14.614944,
+     "market_price": 14.62,
+     "premium_discount": 0.03,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7307472.03,
+   "cum_flow": 11069993.37
+  },
+  {
+   "date": "2026-02-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-03",
+     "shares": 480000.0,
+     "net_assets": 7054376.8,
+     "nav": 14.696618,
+     "market_price": 14.88,
+     "premium_discount": 1.25,
+     "spread_30d": 0.45,
+     "flow": -293932.36
+    }
+   },
+   "flow": -293932.36,
+   "net_assets": 7054376.8,
+   "cum_flow": 10776061.01
+  },
+  {
+   "date": "2026-02-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-04",
+     "shares": 490000.0,
+     "net_assets": 7080747.84,
+     "nav": 14.450506,
+     "market_price": 14.42,
+     "premium_discount": -0.25,
+     "spread_30d": 0.45,
+     "flow": 144505.06
+    }
+   },
+   "flow": 144505.06,
+   "net_assets": 7080747.84,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-05",
+     "shares": 490000.0,
+     "net_assets": 6163351.75,
+     "nav": 12.578269,
+     "market_price": 12.41,
+     "premium_discount": -1.34,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6163351.75,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-06",
+     "shares": 490000.0,
+     "net_assets": 6590978.99,
+     "nav": 13.450978,
+     "market_price": 13.46,
+     "premium_discount": 0.06,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6590978.99,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-09",
+     "shares": 490000.0,
+     "net_assets": 6584276.02,
+     "nav": 13.437298,
+     "market_price": 13.43,
+     "premium_discount": -0.05,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6584276.02,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-10",
+     "shares": 490000.0,
+     "net_assets": 6390070.92,
+     "nav": 13.040961,
+     "market_price": 13.07,
+     "premium_discount": 0.22,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6390070.92,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-11",
+     "shares": 490000.0,
+     "net_assets": 6254586.4,
+     "nav": 12.764462,
+     "market_price": 12.79,
+     "premium_discount": 0.21,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6254586.4,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-12",
+     "shares": 490000.0,
+     "net_assets": 6253933.25,
+     "nav": 12.763129,
+     "market_price": 12.7,
+     "premium_discount": -0.47,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6253933.25,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-13",
+     "shares": 490000.0,
+     "net_assets": 6609847.9,
+     "nav": 13.489486,
+     "market_price": 13.52,
+     "premium_discount": 0.2,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6609847.9,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-17",
+     "shares": 490000.0,
+     "net_assets": 6487201.57,
+     "nav": 13.239187,
+     "market_price": 13.25,
+     "premium_discount": 0.11,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6487201.57,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-18",
+     "shares": 490000.0,
+     "net_assets": 6386074.91,
+     "nav": 13.032806,
+     "market_price": 13.0,
+     "premium_discount": -0.26,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6386074.91,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-19",
+     "shares": 490000.0,
+     "net_assets": 6302973.08,
+     "nav": 12.86321,
+     "market_price": 12.88,
+     "premium_discount": 0.09,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6302973.08,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-20",
+     "shares": 490000.0,
+     "net_assets": 6606824.35,
+     "nav": 13.483315,
+     "market_price": 13.45,
+     "premium_discount": -0.24,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6606824.35,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-23",
+     "shares": 490000.0,
+     "net_assets": 6147414.95,
+     "nav": 12.545745,
+     "market_price": 12.58,
+     "premium_discount": 0.27,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6147414.95,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-24",
+     "shares": 490000.0,
+     "net_assets": 6177846.21,
+     "nav": 12.607849,
+     "market_price": 12.58,
+     "premium_discount": -0.24,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6177846.21,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-25",
+     "shares": 490000.0,
+     "net_assets": 6962781.47,
+     "nav": 14.209758,
+     "market_price": 14.22,
+     "premium_discount": 0.04,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6962781.47,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-26",
+     "shares": 490000.0,
+     "net_assets": 6662824.68,
+     "nav": 13.597601,
+     "market_price": 13.55,
+     "premium_discount": -0.38,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6662824.68,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-02-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-02-27",
+     "shares": 490000.0,
+     "net_assets": 6488788.24,
+     "nav": 13.242425,
+     "market_price": 13.21,
+     "premium_discount": -0.28,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6488788.24,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-02",
+     "shares": 490000.0,
+     "net_assets": 6572064.02,
+     "nav": 13.412376,
+     "market_price": 13.43,
+     "premium_discount": 0.14,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6572064.02,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-03",
+     "shares": 490000.0,
+     "net_assets": 6569122.89,
+     "nav": 13.406373,
+     "market_price": 13.37,
+     "premium_discount": -0.27,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6569122.89,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-04",
+     "shares": 490000.0,
+     "net_assets": 6883365.46,
+     "nav": 14.047685,
+     "market_price": 14.0,
+     "premium_discount": -0.32,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6883365.46,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-05",
+     "shares": 490000.0,
+     "net_assets": 6688827.76,
+     "nav": 13.650669,
+     "market_price": 13.68,
+     "premium_discount": 0.23,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6688827.76,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-06",
+     "shares": 490000.0,
+     "net_assets": 6435275.99,
+     "nav": 13.133216,
+     "market_price": 13.16,
+     "premium_discount": 0.18,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6435275.99,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-09",
+     "shares": 490000.0,
+     "net_assets": 6499033.43,
+     "nav": 13.263334,
+     "market_price": 13.26,
+     "premium_discount": 0.0,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6499033.43,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-10",
+     "shares": 490000.0,
+     "net_assets": 6445109.91,
+     "nav": 13.153286,
+     "market_price": 13.15,
+     "premium_discount": -0.06,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6445109.91,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-11",
+     "shares": 490000.0,
+     "net_assets": 6598547.4,
+     "nav": 13.466423,
+     "market_price": 13.47,
+     "premium_discount": -0.01,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6598547.4,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-12",
+     "shares": 490000.0,
+     "net_assets": 6504813.26,
+     "nav": 13.275129,
+     "market_price": 13.28,
+     "premium_discount": 0.05,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6504813.26,
+   "cum_flow": 10920566.07
+  },
+  {
+   "date": "2026-03-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-13",
+     "shares": 470000.0,
+     "net_assets": 6374670.27,
+     "nav": 13.563128,
+     "market_price": 13.6,
+     "premium_discount": 0.24,
+     "spread_30d": 0.45,
+     "flow": -271262.56
+    }
+   },
+   "flow": -271262.56,
+   "net_assets": 6374670.27,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-16",
+     "shares": 470000.0,
+     "net_assets": 6733490.67,
+     "nav": 14.326576,
+     "market_price": 14.28,
+     "premium_discount": -0.33,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6733490.67,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-17",
+     "shares": 470000.0,
+     "net_assets": 6705614.28,
+     "nav": 14.267264,
+     "market_price": 14.24,
+     "premium_discount": -0.19,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6705614.28,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-18",
+     "shares": 470000.0,
+     "net_assets": 6419280.01,
+     "nav": 13.658043,
+     "market_price": 13.64,
+     "premium_discount": -0.16,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6419280.01,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-19",
+     "shares": 470000.0,
+     "net_assets": 6395802.36,
+     "nav": 13.60809,
+     "market_price": 13.61,
+     "premium_discount": -0.02,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6395802.36,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-20",
+     "shares": 470000.0,
+     "net_assets": 6378618.89,
+     "nav": 13.57153,
+     "market_price": 13.61,
+     "premium_discount": 0.29,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6378618.89,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-23",
+     "shares": 470000.0,
+     "net_assets": 6381130.02,
+     "nav": 13.576872,
+     "market_price": 13.52,
+     "premium_discount": -0.43,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6381130.02,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-24",
+     "shares": 470000.0,
+     "net_assets": 6406015.84,
+     "nav": 13.629821,
+     "market_price": 13.61,
+     "premium_discount": -0.11,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6406015.84,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-25",
+     "shares": 470000.0,
+     "net_assets": 6472830.56,
+     "nav": 13.77198,
+     "market_price": 13.76,
+     "premium_discount": -0.09,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6472830.56,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-26",
+     "shares": 470000.0,
+     "net_assets": 6245180.94,
+     "nav": 13.287619,
+     "market_price": 13.26,
+     "premium_discount": -0.19,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6245180.94,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-27",
+     "shares": 470000.0,
+     "net_assets": 6172621.23,
+     "nav": 13.133237,
+     "market_price": 13.12,
+     "premium_discount": -0.09,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6172621.23,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-30",
+     "shares": 470000.0,
+     "net_assets": 6109334.22,
+     "nav": 12.998583,
+     "market_price": 13.03,
+     "premium_discount": 0.24,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6109334.22,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-03-31",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-03-31",
+     "shares": 470000.0,
+     "net_assets": 6207235.23,
+     "nav": 13.206883,
+     "market_price": 13.19,
+     "premium_discount": -0.11,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6207235.23,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-01",
+     "shares": 470000.0,
+     "net_assets": 6225482.44,
+     "nav": 13.245707,
+     "market_price": 13.24,
+     "premium_discount": -0.04,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6225482.44,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-02",
+     "shares": 470000.0,
+     "net_assets": 5975322.87,
+     "nav": 12.713453,
+     "market_price": 12.73,
+     "premium_discount": 0.09,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5975322.87,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-06",
+     "shares": 470000.0,
+     "net_assets": 6200433.39,
+     "nav": 13.192411,
+     "market_price": 13.2,
+     "premium_discount": 0.03,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6200433.39,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-07",
+     "shares": 470000.0,
+     "net_assets": 6146850.31,
+     "nav": 13.078405,
+     "market_price": 13.14,
+     "premium_discount": 0.43,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6146850.31,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-08",
+     "shares": 470000.0,
+     "net_assets": 6223307.17,
+     "nav": 13.241079,
+     "market_price": 13.28,
+     "premium_discount": 0.27,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6223307.17,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-09",
+     "shares": 470000.0,
+     "net_assets": 6285165.78,
+     "nav": 13.372693,
+     "market_price": 13.38,
+     "premium_discount": 0.07,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6285165.78,
+   "cum_flow": 10649303.51
+  },
+  {
+   "date": "2026-04-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-10",
+     "shares": 440000.0,
+     "net_assets": 5935657.03,
+     "nav": 13.49013,
+     "market_price": 13.5,
+     "premium_discount": 0.07,
+     "spread_30d": 0.44,
+     "flow": -404703.9
+    }
+   },
+   "flow": -404703.9,
+   "net_assets": 5935657.03,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-13",
+     "shares": 440000.0,
+     "net_assets": 5736077.42,
+     "nav": 13.03654,
+     "market_price": 13.15,
+     "premium_discount": 0.87,
+     "spread_30d": 0.44,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5736077.42,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-14",
+     "shares": 440000.0,
+     "net_assets": 5855437.05,
+     "nav": 13.307811,
+     "market_price": 13.33,
+     "premium_discount": 0.17,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5855437.05,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-15",
+     "shares": 440000.0,
+     "net_assets": 5961463.89,
+     "nav": 13.548782,
+     "market_price": 13.58,
+     "premium_discount": 0.23,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5961463.89,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-16",
+     "shares": 440000.0,
+     "net_assets": 6066572.03,
+     "nav": 13.787664,
+     "market_price": 13.82,
+     "premium_discount": 0.2,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6066572.03,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-17",
+     "shares": 440000.0,
+     "net_assets": 6101183.95,
+     "nav": 13.866327,
+     "market_price": 13.89,
+     "premium_discount": 0.13,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6101183.95,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-20",
+     "shares": 440000.0,
+     "net_assets": 5941711.47,
+     "nav": 13.50389,
+     "market_price": 13.51,
+     "premium_discount": 0.08,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5941711.47,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-21",
+     "shares": 440000.0,
+     "net_assets": 5923723.16,
+     "nav": 13.463007,
+     "market_price": 13.4,
+     "premium_discount": -0.47,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5923723.16,
+   "cum_flow": 10244599.61
+  },
+  {
+   "date": "2026-04-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-22",
+     "shares": 480000.0,
+     "net_assets": 6575304.53,
+     "nav": 13.698551,
+     "market_price": 13.68,
+     "premium_discount": -0.14,
+     "spread_30d": 0.45,
+     "flow": 547942.04
+    }
+   },
+   "flow": 547942.04,
+   "net_assets": 6575304.53,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-23",
+     "shares": 480000.0,
+     "net_assets": 6505586.54,
+     "nav": 13.553305,
+     "market_price": 13.56,
+     "premium_discount": 0.05,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6505586.54,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-24",
+     "shares": 480000.0,
+     "net_assets": 6642835.64,
+     "nav": 13.839241,
+     "market_price": 13.87,
+     "premium_discount": 0.19,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6642835.64,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-27",
+     "shares": 480000.0,
+     "net_assets": 6484711.18,
+     "nav": 13.509815,
+     "market_price": 13.52,
+     "premium_discount": 0.04,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6484711.18,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-28",
+     "shares": 480000.0,
+     "net_assets": 6481834.1,
+     "nav": 13.503821,
+     "market_price": 13.54,
+     "premium_discount": 0.29,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6481834.1,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-29",
+     "shares": 480000.0,
+     "net_assets": 6417238.96,
+     "nav": 13.369248,
+     "market_price": 13.38,
+     "premium_discount": 0.04,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6417238.96,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-04-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-04-30",
+     "shares": 480000.0,
+     "net_assets": 6504529.77,
+     "nav": 13.551104,
+     "market_price": 13.52,
+     "premium_discount": -0.25,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6504529.77,
+   "cum_flow": 10792541.65
+  },
+  {
+   "date": "2026-05-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-01",
+     "shares": 470000.0,
+     "net_assets": 6412626.48,
+     "nav": 13.643886,
+     "market_price": 13.62,
+     "premium_discount": -0.21,
+     "spread_30d": 0.45,
+     "flow": -136438.86
+    }
+   },
+   "flow": -136438.86,
+   "net_assets": 6412626.48,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-04",
+     "shares": 470000.0,
+     "net_assets": 6336712.79,
+     "nav": 13.482368,
+     "market_price": 13.48,
+     "premium_discount": -0.02,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6336712.79,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-05",
+     "shares": 470000.0,
+     "net_assets": 6413844.74,
+     "nav": 13.646478,
+     "market_price": 13.69,
+     "premium_discount": 0.31,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6413844.74,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-06",
+     "shares": 470000.0,
+     "net_assets": 6531637.59,
+     "nav": 13.897101,
+     "market_price": 13.92,
+     "premium_discount": 0.16,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6531637.59,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-07",
+     "shares": 470000.0,
+     "net_assets": 6485062.21,
+     "nav": 13.798005,
+     "market_price": 13.82,
+     "premium_discount": 0.12,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6485062.21,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-08",
+     "shares": 470000.0,
+     "net_assets": 6713482.9,
+     "nav": 14.284006,
+     "market_price": 14.29,
+     "premium_discount": 0.07,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6713482.9,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-11",
+     "shares": 470000.0,
+     "net_assets": 6765134.5,
+     "nav": 14.393903,
+     "market_price": 14.41,
+     "premium_discount": 0.11,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6765134.5,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-12",
+     "shares": 470000.0,
+     "net_assets": 6622500.54,
+     "nav": 14.090427,
+     "market_price": 14.11,
+     "premium_discount": 0.14,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6622500.54,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-13",
+     "shares": 470000.0,
+     "net_assets": 6528268.25,
+     "nav": 13.889932,
+     "market_price": 13.87,
+     "premium_discount": -0.14,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6528268.25,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-14",
+     "shares": 470000.0,
+     "net_assets": 6785644.78,
+     "nav": 14.437542,
+     "market_price": 14.39,
+     "premium_discount": -0.33,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6785644.78,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-15",
+     "shares": 470000.0,
+     "net_assets": 6569607.41,
+     "nav": 13.977888,
+     "market_price": 13.96,
+     "premium_discount": -0.13,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6569607.41,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-18",
+     "shares": 470000.0,
+     "net_assets": 6204640.41,
+     "nav": 13.201363,
+     "market_price": 13.24,
+     "premium_discount": 0.29,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6204640.41,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-19",
+     "shares": 470000.0,
+     "net_assets": 6204933.4,
+     "nav": 13.201986,
+     "market_price": 13.18,
+     "premium_discount": -0.15,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6204933.4,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-20",
+     "shares": 470000.0,
+     "net_assets": 6217812.42,
+     "nav": 13.229388,
+     "market_price": 13.22,
+     "premium_discount": -0.05,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6217812.42,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-21",
+     "shares": 470000.0,
+     "net_assets": 6205870.37,
+     "nav": 13.20398,
+     "market_price": 13.23,
+     "premium_discount": 0.16,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6205870.37,
+   "cum_flow": 10656102.79
+  },
+  {
+   "date": "2026-05-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-22",
+     "shares": 490000.0,
+     "net_assets": 6370708.28,
+     "nav": 13.001445,
+     "market_price": 12.98,
+     "premium_discount": -0.17,
+     "spread_30d": 0.46,
+     "flow": 260028.9
+    }
+   },
+   "flow": 260028.9,
+   "net_assets": 6370708.28,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-05-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-26",
+     "shares": 490000.0,
+     "net_assets": 6191922.04,
+     "nav": 12.636576,
+     "market_price": 12.65,
+     "premium_discount": 0.07,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6191922.04,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-05-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-27",
+     "shares": 490000.0,
+     "net_assets": 6263624.28,
+     "nav": 12.782907,
+     "market_price": 12.76,
+     "premium_discount": -0.17,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6263624.28,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-05-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-28",
+     "shares": 490000.0,
+     "net_assets": 6197346.76,
+     "nav": 12.647646,
+     "market_price": 12.62,
+     "premium_discount": -0.19,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6197346.76,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-05-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-05-29",
+     "shares": 490000.0,
+     "net_assets": 6185358.2,
+     "nav": 12.62318,
+     "market_price": 12.65,
+     "premium_discount": 0.2,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6185358.2,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-01",
+     "shares": 490000.0,
+     "net_assets": 6071765.6,
+     "nav": 12.391358,
+     "market_price": 12.4,
+     "premium_discount": 0.11,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6071765.6,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-02",
+     "shares": 490000.0,
+     "net_assets": 5738261.35,
+     "nav": 11.710737,
+     "market_price": 11.73,
+     "premium_discount": 0.16,
+     "spread_30d": 0.49,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5738261.35,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-03",
+     "shares": 490000.0,
+     "net_assets": 5671431.46,
+     "nav": 11.57435,
+     "market_price": 11.52,
+     "premium_discount": -0.47,
+     "spread_30d": 0.49,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5671431.46,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-04",
+     "shares": 490000.0,
+     "net_assets": 5543249.9,
+     "nav": 11.312755,
+     "market_price": 11.27,
+     "premium_discount": -0.42,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5543249.9,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-05",
+     "shares": 490000.0,
+     "net_assets": 5091098.77,
+     "nav": 10.389997,
+     "market_price": 10.51,
+     "premium_discount": 1.15,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5091098.77,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-08",
+     "shares": 490000.0,
+     "net_assets": 5191995.52,
+     "nav": 10.595909,
+     "market_price": 10.59,
+     "premium_discount": -0.05,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5191995.52,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-09",
+     "shares": 490000.0,
+     "net_assets": 5167430.42,
+     "nav": 10.545776,
+     "market_price": 10.59,
+     "premium_discount": 0.42,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5167430.42,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-10",
+     "shares": 490000.0,
+     "net_assets": 4988487.64,
+     "nav": 10.180587,
+     "market_price": 10.16,
+     "premium_discount": -0.21,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 4988487.64,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-11",
+     "shares": 490000.0,
+     "net_assets": 5094405.69,
+     "nav": 10.396746,
+     "market_price": 10.41,
+     "premium_discount": 0.13,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5094405.69,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-12",
+     "shares": 490000.0,
+     "net_assets": 5143698.99,
+     "nav": 10.497345,
+     "market_price": 10.48,
+     "premium_discount": -0.14,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5143698.99,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-15",
+     "shares": 490000.0,
+     "net_assets": 5459834.16,
+     "nav": 11.142519,
+     "market_price": 11.13,
+     "premium_discount": -0.14,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5459834.16,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-16",
+     "shares": 490000.0,
+     "net_assets": 5427372.48,
+     "nav": 11.07627,
+     "market_price": 11.09,
+     "premium_discount": 0.11,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5427372.48,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-17",
+     "shares": 490000.0,
+     "net_assets": 5381391.88,
+     "nav": 10.982432,
+     "market_price": 10.92,
+     "premium_discount": -0.54,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5381391.88,
+   "cum_flow": 10916131.69
+  },
+  {
+   "date": "2026-06-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-18",
+     "shares": 520000.0,
+     "net_assets": 5497087.36,
+     "nav": 10.571322,
+     "market_price": 10.62,
+     "premium_discount": 0.44,
+     "spread_30d": 0.48,
+     "flow": 317139.66
+    }
+   },
+   "flow": 317139.66,
+   "net_assets": 5497087.36,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-22",
+     "shares": 520000.0,
+     "net_assets": 5655273.5,
+     "nav": 10.875526,
+     "market_price": 10.88,
+     "premium_discount": 0.04,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5655273.5,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-23",
+     "shares": 520000.0,
+     "net_assets": 5316801.18,
+     "nav": 10.224618,
+     "market_price": 10.21,
+     "premium_discount": -0.1,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5316801.18,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-24",
+     "shares": 520000.0,
+     "net_assets": 5052120.47,
+     "nav": 9.715616,
+     "market_price": 9.77,
+     "premium_discount": 0.52,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5052120.47,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-25",
+     "shares": 520000.0,
+     "net_assets": 5143714.21,
+     "nav": 9.891758,
+     "market_price": 9.89,
+     "premium_discount": -0.04,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5143714.21,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-26",
+     "shares": 520000.0,
+     "net_assets": 5292515.4,
+     "nav": 10.177914,
+     "market_price": 10.19,
+     "premium_discount": 0.07,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5292515.4,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-29",
+     "shares": 520000.0,
+     "net_assets": 5490864.39,
+     "nav": 10.559355,
+     "market_price": 10.57,
+     "premium_discount": 0.06,
+     "spread_30d": 0.49,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5490864.39,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-06-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-06-30",
+     "shares": 520000.0,
+     "net_assets": 5298433.13,
+     "nav": 10.189294,
+     "market_price": 10.19,
+     "premium_discount": 0.05,
+     "spread_30d": 0.49,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5298433.13,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-01",
+     "shares": 520000.0,
+     "net_assets": 5382780.26,
+     "nav": 10.351501,
+     "market_price": 10.35,
+     "premium_discount": -0.06,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5382780.26,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-02",
+     "shares": 520000.0,
+     "net_assets": 5517869.07,
+     "nav": 10.611287,
+     "market_price": 10.59,
+     "premium_discount": -0.25,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5517869.07,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-06",
+     "shares": 520000.0,
+     "net_assets": 5732234.42,
+     "nav": 11.023528,
+     "market_price": 11.01,
+     "premium_discount": -0.1,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5732234.42,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-07",
+     "shares": 520000.0,
+     "net_assets": 5570349.17,
+     "nav": 10.71221,
+     "market_price": 10.73,
+     "premium_discount": 0.12,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5570349.17,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-08",
+     "shares": 520000.0,
+     "net_assets": 5502625.65,
+     "nav": 10.581972,
+     "market_price": 10.6,
+     "premium_discount": 0.17,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5502625.65,
+   "cum_flow": 11233271.35
+  },
+  {
+   "date": "2026-07-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-09",
+     "shares": 480000.0,
+     "net_assets": 5159346.2,
+     "nav": 10.748638,
+     "market_price": 10.73,
+     "premium_discount": -0.22,
+     "spread_30d": 0.48,
+     "flow": -429945.52
+    }
+   },
+   "flow": -429945.52,
+   "net_assets": 5159346.2,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-10",
+     "shares": 480000.0,
+     "net_assets": 5213921.93,
+     "nav": 10.862337,
+     "market_price": 10.88,
+     "premium_discount": 0.12,
+     "spread_30d": 0.48,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5213921.93,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-13",
+     "shares": 480000.0,
+     "net_assets": 5053184.21,
+     "nav": 10.527467,
+     "market_price": 10.55,
+     "premium_discount": 0.17,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5053184.21,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-14",
+     "shares": 480000.0,
+     "net_assets": 5253497.23,
+     "nav": 10.944786,
+     "market_price": 10.97,
+     "premium_discount": 0.18,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5253497.23,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-15",
+     "shares": 480000.0,
+     "net_assets": 5264130.54,
+     "nav": 10.966939,
+     "market_price": 10.96,
+     "premium_discount": -0.11,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5264130.54,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-16",
+     "shares": 480000.0,
+     "net_assets": 5290636.34,
+     "nav": 11.022159,
+     "market_price": 11.03,
+     "premium_discount": 0.03,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5290636.34,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-17",
+     "shares": 480000.0,
+     "net_assets": 5265154.25,
+     "nav": 10.969071,
+     "market_price": 10.99,
+     "premium_discount": 0.22,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5265154.25,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-20",
+     "shares": 480000.0,
+     "net_assets": 5506610.68,
+     "nav": 11.472106,
+     "market_price": 11.48,
+     "premium_discount": 0.05,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5506610.68,
+   "cum_flow": 10803325.83
+  },
+  {
+   "date": "2026-07-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-21",
+     "shares": 520000.0,
+     "net_assets": 5984371.76,
+     "nav": 11.508407,
+     "market_price": 11.49,
+     "premium_discount": -0.16,
+     "spread_30d": 0.47,
+     "flow": 460336.28
+    }
+   },
+   "flow": 460336.28,
+   "net_assets": 5984371.76,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-22",
+     "shares": 520000.0,
+     "net_assets": 5974177.74,
+     "nav": 11.488803,
+     "market_price": 11.5,
+     "premium_discount": 0.05,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5974177.74,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-23",
+     "shares": 520000.0,
+     "net_assets": 5938352.41,
+     "nav": 11.419908,
+     "market_price": 11.41,
+     "premium_discount": -0.11,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5938352.41,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-24",
+     "shares": 520000.0,
+     "net_assets": 5848758.45,
+     "nav": 11.247612,
+     "market_price": 11.26,
+     "premium_discount": 0.07,
+     "spread_30d": 0.47,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5848758.45,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-27",
+     "shares": 520000.0,
+     "net_assets": 5889773.86,
+     "nav": 11.326488,
+     "market_price": 11.33,
+     "premium_discount": -0.01,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5889773.86,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-28",
+     "shares": 520000.0,
+     "net_assets": 5870053.15,
+     "nav": 11.288564,
+     "market_price": 11.3,
+     "premium_discount": 0.1,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5870053.15,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-29",
+     "shares": 520000.0,
+     "net_assets": 5732250.13,
+     "nav": 11.023558,
+     "market_price": 10.95,
+     "premium_discount": -0.71,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5732250.13,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-30",
+     "shares": 520000.0,
+     "net_assets": 5752937.25,
+     "nav": 11.063341,
+     "market_price": 11.07,
+     "premium_discount": 0.02,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5752937.25,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-07-31",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-07-31",
+     "shares": 520000.0,
+     "net_assets": 5689000.16,
+     "nav": 10.940385,
+     "market_price": 10.93,
+     "premium_discount": -0.1,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5689000.16,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-03",
+     "shares": 520000.0,
+     "net_assets": 5607724.08,
+     "nav": 10.784085,
+     "market_price": 10.79,
+     "premium_discount": 0.01,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5607724.08,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-04",
+     "shares": 520000.0,
+     "net_assets": 5669291.38,
+     "nav": 10.902483,
+     "market_price": 10.89,
+     "premium_discount": -0.16,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5669291.38,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-05",
+     "shares": 520000.0,
+     "net_assets": 5734347.83,
+     "nav": 11.027592,
+     "market_price": 11.03,
+     "premium_discount": -0.02,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5734347.83,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-06",
+     "shares": 520000.0,
+     "net_assets": 5756348.95,
+     "nav": 11.069902,
+     "market_price": 11.06,
+     "premium_discount": -0.13,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5756348.95,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-07",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-07",
+     "shares": 520000.0,
+     "net_assets": 5752718.85,
+     "nav": 11.062921,
+     "market_price": 11.06,
+     "premium_discount": -0.07,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5752718.85,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-10",
+     "shares": 520000.0,
+     "net_assets": 5708672.57,
+     "nav": 10.978216,
+     "market_price": 11.0,
+     "premium_discount": 0.15,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5708672.57,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-11",
+     "shares": 520000.0,
+     "net_assets": 5748291.12,
+     "nav": 11.054406,
+     "market_price": 11.09,
+     "premium_discount": 0.28,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5748291.12,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-12",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-12",
+     "shares": 520000.0,
+     "net_assets": 5683853.6,
+     "nav": 10.930488,
+     "market_price": 10.9,
+     "premium_discount": -0.28,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5683853.6,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-13",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-13",
+     "shares": 520000.0,
+     "net_assets": 5662425.27,
+     "nav": 10.889279,
+     "market_price": 10.9,
+     "premium_discount": 0.05,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5662425.27,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-14",
+     "shares": 520000.0,
+     "net_assets": 5517391.35,
+     "nav": 10.610368,
+     "market_price": 10.62,
+     "premium_discount": 0.09,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5517391.35,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-17",
+     "shares": 520000.0,
+     "net_assets": 5640288.16,
+     "nav": 10.846708,
+     "market_price": 10.83,
+     "premium_discount": -0.15,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5640288.16,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-18",
+     "shares": 520000.0,
+     "net_assets": 5639772.74,
+     "nav": 10.845717,
+     "market_price": 10.85,
+     "premium_discount": 0.0,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5639772.74,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-19",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-19",
+     "shares": 520000.0,
+     "net_assets": 5819734.83,
+     "nav": 11.191798,
+     "market_price": 11.2,
+     "premium_discount": 0.08,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 5819734.83,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-20",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-20",
+     "shares": 520000.0,
+     "net_assets": 6081000.61,
+     "nav": 11.694232,
+     "market_price": 11.65,
+     "premium_discount": -0.38,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6081000.61,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-21",
+     "shares": 520000.0,
+     "net_assets": 6558150.25,
+     "nav": 12.611827,
+     "market_price": 12.59,
+     "premium_discount": -0.17,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6558150.25,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-24",
+     "shares": 520000.0,
+     "net_assets": 6553500.46,
+     "nav": 12.602885,
+     "market_price": 12.56,
+     "premium_discount": -0.34,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6553500.46,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-25",
+     "shares": 520000.0,
+     "net_assets": 6451156.3,
+     "nav": 12.40607,
+     "market_price": 12.38,
+     "premium_discount": -0.25,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6451156.3,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-26",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-26",
+     "shares": 520000.0,
+     "net_assets": 6316057.67,
+     "nav": 12.146265,
+     "market_price": 12.18,
+     "premium_discount": 0.28,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6316057.67,
+   "cum_flow": 11263662.11
+  },
+  {
+   "date": "2026-08-27",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-27",
+     "shares": 550000.0,
+     "net_assets": 6695719.55,
+     "nav": 12.174036,
+     "market_price": 12.19,
+     "premium_discount": 0.16,
+     "spread_30d": 0.45,
+     "flow": 365221.08
+    }
+   },
+   "flow": 365221.08,
+   "net_assets": 6695719.55,
+   "cum_flow": 11628883.19
+  },
+  {
+   "date": "2026-08-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-28",
+     "shares": 530000.0,
+     "net_assets": 6334291.38,
+     "nav": 11.951493,
+     "market_price": 11.98,
+     "premium_discount": 0.26,
+     "spread_30d": 0.45,
+     "flow": -239029.86
+    }
+   },
+   "flow": -239029.86,
+   "net_assets": 6334291.38,
+   "cum_flow": 11389853.33
+  },
+  {
+   "date": "2026-08-31",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-08-31",
+     "shares": 530000.0,
+     "net_assets": 6311738.38,
+     "nav": 11.90894,
+     "market_price": 11.92,
+     "premium_discount": 0.05,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6311738.38,
+   "cum_flow": 11389853.33
+  },
+  {
+   "date": "2026-09-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-01",
+     "shares": 530000.0,
+     "net_assets": 6380373.7,
+     "nav": 12.038441,
+     "market_price": 12.04,
+     "premium_discount": 0.02,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6380373.7,
+   "cum_flow": 11389853.33
+  },
+  {
+   "date": "2026-09-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-02",
+     "shares": 540000.0,
+     "net_assets": 6539004.33,
+     "nav": 12.109267,
+     "market_price": 12.11,
+     "premium_discount": 0.05,
+     "spread_30d": 0.45,
+     "flow": 121092.67
+    }
+   },
+   "flow": 121092.67,
+   "net_assets": 6539004.33,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-03",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-03",
+     "shares": 540000.0,
+     "net_assets": 6784828.01,
+     "nav": 12.564496,
+     "market_price": 12.59,
+     "premium_discount": 0.22,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6784828.01,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-04",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-04",
+     "shares": 540000.0,
+     "net_assets": 6653447.46,
+     "nav": 12.321199,
+     "market_price": 12.36,
+     "premium_discount": 0.31,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6653447.46,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-08",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-08",
+     "shares": 540000.0,
+     "net_assets": 7116698.04,
+     "nav": 13.17907,
+     "market_price": 13.18,
+     "premium_discount": 0.01,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7116698.04,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-09",
+     "shares": 540000.0,
+     "net_assets": 7077531.41,
+     "nav": 13.10654,
+     "market_price": 13.04,
+     "premium_discount": -0.54,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7077531.41,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-10",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-10",
+     "shares": 540000.0,
+     "net_assets": 6876250.73,
+     "nav": 12.733798,
+     "market_price": 12.7,
+     "premium_discount": -0.26,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 6876250.73,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-11",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-11",
+     "shares": 540000.0,
+     "net_assets": 7007031.61,
+     "nav": 12.975984,
+     "market_price": 13.03,
+     "premium_discount": 0.38,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7007031.61,
+   "cum_flow": 11510946.0
+  },
+  {
+   "date": "2026-09-14",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-14",
+     "shares": 590000.0,
+     "net_assets": 7743240.68,
+     "nav": 13.124137,
+     "market_price": 13.11,
+     "premium_discount": -0.11,
+     "spread_30d": 0.45,
+     "flow": 656206.85
+    }
+   },
+   "flow": 656206.85,
+   "net_assets": 7743240.68,
+   "cum_flow": 12167152.85
+  },
+  {
+   "date": "2026-09-15",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-15",
+     "shares": 590000.0,
+     "net_assets": 7405718.97,
+     "nav": 12.552066,
+     "market_price": 12.56,
+     "premium_discount": 0.02,
+     "spread_30d": 0.45,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7405718.97,
+   "cum_flow": 12167152.85
+  },
+  {
+   "date": "2026-09-16",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-16",
+     "shares": 570000.0,
+     "net_assets": 7037544.08,
+     "nav": 12.346569,
+     "market_price": 12.38,
+     "premium_discount": 0.27,
+     "spread_30d": 0.45,
+     "flow": -246931.38
+    }
+   },
+   "flow": -246931.38,
+   "net_assets": 7037544.08,
+   "cum_flow": 11920221.47
+  },
+  {
+   "date": "2026-09-17",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-17",
+     "shares": 560000.0,
+     "net_assets": 7312252.1,
+     "nav": 13.057593,
+     "market_price": 13.1,
+     "premium_discount": 0.32,
+     "spread_30d": 0.46,
+     "flow": -130575.93
+    }
+   },
+   "flow": -130575.93,
+   "net_assets": 7312252.1,
+   "cum_flow": 11789645.54
+  },
+  {
+   "date": "2026-09-18",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-18",
+     "shares": 560000.0,
+     "net_assets": 7772918.84,
+     "nav": 13.880212,
+     "market_price": 13.91,
+     "premium_discount": 0.19,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 7772918.84,
+   "cum_flow": 11789645.54
+  },
+  {
+   "date": "2026-09-21",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-21",
+     "shares": 550000.0,
+     "net_assets": 8277281.24,
+     "nav": 15.049602,
+     "market_price": 15.16,
+     "premium_discount": 0.76,
+     "spread_30d": 0.47,
+     "flow": -150496.02
+    }
+   },
+   "flow": -150496.02,
+   "net_assets": 8277281.24,
+   "cum_flow": 11639149.52
+  },
+  {
+   "date": "2026-09-22",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-22",
+     "shares": 560000.0,
+     "net_assets": 8559398.45,
+     "nav": 15.28464,
+     "market_price": 15.28,
+     "premium_discount": -0.03,
+     "spread_30d": 0.46,
+     "flow": 152846.4
+    }
+   },
+   "flow": 152846.4,
+   "net_assets": 8559398.45,
+   "cum_flow": 11791995.92
+  },
+  {
+   "date": "2026-09-23",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-23",
+     "shares": 560000.0,
+     "net_assets": 8323417.63,
+     "nav": 14.863246,
+     "market_price": 14.93,
+     "premium_discount": 0.47,
+     "spread_30d": 0.46,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 8323417.63,
+   "cum_flow": 11791995.92
+  },
+  {
+   "date": "2026-09-24",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-24",
+     "shares": 660000.0,
+     "net_assets": 11436152.42,
+     "nav": 17.327504,
+     "market_price": 17.4,
+     "premium_discount": 0.43,
+     "spread_30d": 0.46,
+     "flow": 1732750.4
+    }
+   },
+   "flow": 1732750.4,
+   "net_assets": 11436152.42,
+   "cum_flow": 13524746.32
+  },
+  {
+   "date": "2026-09-25",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-25",
+     "shares": 720000.0,
+     "net_assets": 12427653.83,
+     "nav": 17.26063,
+     "market_price": 17.3,
+     "premium_discount": 0.23,
+     "spread_30d": 0.46,
+     "flow": 1035637.8
+    }
+   },
+   "flow": 1035637.8,
+   "net_assets": 12427653.83,
+   "cum_flow": 14560384.12
+  },
+  {
+   "date": "2026-09-28",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-28",
+     "shares": 790000.0,
+     "net_assets": 13276484.5,
+     "nav": 16.805677,
+     "market_price": 16.77,
+     "premium_discount": -0.21,
+     "spread_30d": 0.42,
+     "flow": 1176397.39
+    }
+   },
+   "flow": 1176397.39,
+   "net_assets": 13276484.5,
+   "cum_flow": 15736781.51
+  },
+  {
+   "date": "2026-09-29",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-29",
+     "shares": 790000.0,
+     "net_assets": 12986816.42,
+     "nav": 16.439008,
+     "market_price": 16.39,
+     "premium_discount": -0.28,
+     "spread_30d": 0.41,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 12986816.42,
+   "cum_flow": 15736781.51
+  },
+  {
+   "date": "2026-09-30",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-09-30",
+     "shares": 880000.0,
+     "net_assets": 14173197.5,
+     "nav": 16.105906,
+     "market_price": 16.12,
+     "premium_discount": 0.09,
+     "spread_30d": 0.41,
+     "flow": 1449531.54
+    }
+   },
+   "flow": 1449531.54,
+   "net_assets": 14173197.5,
+   "cum_flow": 17186313.05
+  },
+  {
+   "date": "2026-10-01",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-10-01",
+     "shares": 880000.0,
+     "net_assets": 14528361.19,
+     "nav": 16.509501,
+     "market_price": 16.6,
+     "premium_discount": 0.55,
+     "spread_30d": 0.4,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 14528361.19,
+   "cum_flow": 17186313.05
+  },
+  {
+   "date": "2026-10-02",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-10-02",
+     "shares": 880000.0,
+     "net_assets": 14663651.77,
+     "nav": 16.663241,
+     "market_price": 16.71,
+     "premium_discount": 0.29,
+     "spread_30d": 0.39,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 14663651.77,
+   "cum_flow": 17186313.05
+  },
+  {
+   "date": "2026-10-05",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-10-05",
+     "shares": 880000.0,
+     "net_assets": 15025803.82,
+     "nav": 17.074777,
+     "market_price": 17.04,
+     "premium_discount": -0.18,
+     "spread_30d": 0.35,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 15025803.82,
+   "cum_flow": 17186313.05
+  },
+  {
+   "date": "2026-10-06",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-10-06",
+     "shares": 880000.0,
+     "net_assets": 14864634.0,
+     "nav": 16.89163,
+     "market_price": 16.84,
+     "premium_discount": -0.31,
+     "spread_30d": 0.33,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 14864634.0,
+   "cum_flow": 17186313.05
+  }
+ ],
+ "listing_watch": [
+  {
+   "ticker": "LTCN",
+   "cik": "1732406",
+   "exchanges": [
+    "OTC"
+   ],
+   "has_8a": false,
+   "latest_form": "S-3/A",
+   "latest_form_date": "2026-09-11",
+   "action": "no 8-A yet"
+  }
+ ],
+ "caveats": [
+  "Flow excludes price movement. Net assets can fall on a zero-flow day.",
+  "Creations are struck in 10,000-share baskets, so single-day gaps are mechanical, not a demand signal.",
+  "Seed day is reported as a flow equal to initial net assets.",
+  "Source is the issuer's own daily table \u2014 the same upstream the aggregators quote."
+ ]
+}
