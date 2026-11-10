@@ -1,7 +1,7 @@
 {
  "asset": "LTC",
  "asset_name": "Litecoin",
- "updated_utc": "2026-11-10T04:42:06+00:00",
+ "updated_utc": "2026-11-10T18:44:13+00:00",
  "method": "flow = change in shares outstanding x NAV, per fund, per trading day; NAV recomputed as net assets / shares outstanding",
  "funds": [
   {
@@ -51,14 +51,14 @@
  ],
  "coins_held": {
   "LTCUSD": {
-   "ltc": 221204.38,
-   "as_of": "2026-11-09"
+   "ltc": 221198.62,
+   "as_of": "2026-11-10"
   }
  },
  "coins_total": {
-  "amount": 221204.38,
+  "amount": 221198.62,
   "unit": "LTC",
-  "as_of": "2026-11-09"
+  "as_of": "2026-11-10"
  },
  "series": [
   {
@@ -4740,6 +4740,24 @@
    },
    "flow": 0.0,
    "net_assets": 11657258.86,
+   "cum_flow": 17702439.76
+  },
+  {
+   "date": "2026-11-09",
+   "by_fund": {
+    "LTCC": {
+     "date": "2026-11-09",
+     "shares": 910000.0,
+     "net_assets": 11403419.81,
+     "nav": 12.531231,
+     "market_price": 12.52,
+     "premium_discount": -0.12,
+     "spread_30d": 0.42,
+     "flow": 0.0
+    }
+   },
+   "flow": 0.0,
+   "net_assets": 11403419.81,
    "cum_flow": 17702439.76
   }
  ],
