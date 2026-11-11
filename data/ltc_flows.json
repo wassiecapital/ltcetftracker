@@ -1,7 +1,7 @@
 {
  "asset": "LTC",
  "asset_name": "Litecoin",
- "updated_utc": "2026-11-10T18:44:13+00:00",
+ "updated_utc": "2026-11-11T02:53:17+00:00",
  "method": "flow = change in shares outstanding x NAV, per fund, per trading day; NAV recomputed as net assets / shares outstanding",
  "funds": [
   {
@@ -4769,8 +4769,8 @@
     "OTC"
    ],
    "has_8a": false,
-   "latest_form": "S-3/A",
-   "latest_form_date": "2026-09-11",
+   "latest_form": "10-Q",
+   "latest_form_date": "2026-11-10",
    "action": "no 8-A yet"
   }
  ],
